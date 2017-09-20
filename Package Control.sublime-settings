@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"C Improved",
+		"C99",
+		"CTags",
+		"Increment Selection",
+		"Package Control",
+		"SFTP",
+		"SideBarEnhancements"
+	]
+}

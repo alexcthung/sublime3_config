@@ -1,0 +1,19 @@
+[
+	{ "keys": ["option+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["option+shift+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["ctrl+escape"], "command": "single_selection", "context":
+		[
+			{ "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false },
+            { "key": "selection_empty", "operator": "equal", "operand": false}
+		]
+	},
+	{ "keys": ["ctrl+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{ "keys": ["d", "d"], "command": "run_macro_file","args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}, "context":
+		[
+			{ "key": "setting.command_mode", "operand": true }
+		]
+	},
+	{ "keys": ["ctrl+alt+d"], "command": "diff_changes" },
+	{ "keys": ["super+shift+x"], "command": "clone_file" },
+]

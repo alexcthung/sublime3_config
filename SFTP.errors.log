@@ -1,0 +1,6 @@
+2017-08-28 11:36:16
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1743, in <lambda>
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1778, in complete
+  File "./python3.3/codecs.py", line 896, in open
+FileNotFoundError: [Errno 2] No such file or directory: '/var/folders/gh/2thd4lp562l8grg27k9_r2s00000gn/T/sublime-sftp-diff-1503891376/sftp-config.json'
